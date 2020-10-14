@@ -1,0 +1,28 @@
+.pokemon-container
+{
+    width: 180px;
+    height: 30px;
+    /*border: 1px solid #999;*/
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px #AAAAAA7D;
+    margin: 5px;
+}
+.text-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: #444;
+    align-items: center;
+}
+.text-container > p
+{
+    margin: 0px 0px 0px 10px;
+    text-decoration: none;
+}
